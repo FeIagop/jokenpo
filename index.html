@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Jokenpô</title>
+</head>
+<body>
+    <header>
+        <h1>JO-KEN-PÔ</h1>        
+    </header>
+    <section>
+        <div>
+            <p>Escolha sua jogada:</p>
+            <p>
+                <input type="radio" name="jogada" id="pedra">Pedra
+                <input type="radio" name="jogada" id="papel">Papel
+                <input type="radio" name="jogada" id="tesoura">Tesoura
+            </p>
+            <p>
+                <input id="play-button" type="button" value="Jogar" onclick="play()">
+                <input id="reset-button" type="button" value="Reset" onclick="reset()">
+            </p>
+        </div>
+        <div>
+            Jogada do Computador:
+        </div>
+        <div id="jogadaPc">
+            
+        </div>
+        <div>
+            Resultado:
+        </div>
+        <div id="resultado">
+            
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Iaguin GaMes</p>
+    </footer>
+</body>
+</html>

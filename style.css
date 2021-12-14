@@ -1,0 +1,47 @@
+body {
+    background-color: aquamarine;
+    font: normal 15pt Arial;
+}
+
+header {
+    font-family: 'Bonheur Royale', cursive;
+    color: black;
+    text-align: center;
+}
+
+div {
+    padding: 5px;
+}
+
+section {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+#play-button, #reset-button {   
+    cursor: pointer;
+    text-align: center; 
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+    font-size: 17px;
+    background-color: #005282;
+    border: 2px solid #005282;
+    color: white;
+}
+
+#play-button:hover, #reset-button:hover {
+    background-color: #0072b3;
+    border: 2px solid #0072b3;
+}
+
+footer {
+    color: black;
+    text-align: center;
+
+}
